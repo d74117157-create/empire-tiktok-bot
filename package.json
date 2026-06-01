@@ -1,0 +1,20 @@
+{
+  "name": "empire-tiktok-live-bot",
+  "version": "1.0.0",
+  "description": "Devin's TikTok LIVE AI Bot — GPT-4o chat monitor + Slack pipeline",
+  "type": "module",
+  "main": "tiktok-live-bot.js",
+  "scripts": {
+    "start": "node tiktok-live-bot.js",
+    "dev": "node --watch tiktok-live-bot.js"
+  },
+  "dependencies": {
+    "tiktok-live-connector": "^1.6.9",
+    "openai": "^4.47.0",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=20.x"
+  }
+}

@@ -9,7 +9,7 @@
     "dev": "node --watch tiktok-live-bot.js"
   },
   "dependencies": {
-    "tiktok-live-connector": "^1.6.9",
+    "tiktok-live-connector": "^2.1.1-beta1"
     "openai": "^4.47.0",
     "node-fetch": "^3.3.2",
     "dotenv": "^16.4.5"

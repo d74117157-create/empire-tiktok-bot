@@ -1,0 +1,21 @@
+services:
+  - type: worker
+    name: empire-tiktok-live-bot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: TIKTOK_USERNAME
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: SLACK_WEBHOOK_OPS
+        sync: false
+      - key: SLACK_WEBHOOK_LOGS
+        sync: false
+      - key: STREAM_PRODUCT_LINK
+        sync: false
+      - key: EMAIL_LIST_LINK
+        sync: false
+      - key: COMMUNITY_LINK
+        sync: false

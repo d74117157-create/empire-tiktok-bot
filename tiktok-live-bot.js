@@ -30,6 +30,7 @@ const tiktok = new WebcastPushConnection(TIKTOK_USERNAME, {
   enableExtendedGiftInfo: true,
   enableWebsocketUpgrade: true,
   requestPollingIntervalMs: 2000,
+    disableEulerFallbacks: true,
 });
 
 let stats = { messages:0, gifts:0, follows:0, shares:0, viewers:0, startTime:Date.now(), topQuestions:[] };
